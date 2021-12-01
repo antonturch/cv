@@ -1,0 +1,15 @@
+.myWork {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgContainer {
+    width: 100%;
+    min-height: 250px;
+    background-color: #f1d656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+.footerBlock {
+    height: 35vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footerDiv {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerDivItems {
+    background-color: #626969;
+    width: 70px;
+    height: 70px;
+}
+
+.footerTitle {
+    background-color: #626969;
+}
