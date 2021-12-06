@@ -6,34 +6,23 @@
 }
 
 .myWorksContainer {
+    display: flex;
     flex-direction: column;
     border: 1px solid black;
-    display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-
 }
 
-.title {
-    background-color: #aedcde;
-}
-
-.title h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 30px;
-    font-weight: 300;
-    color: #fff;
-    text-transform: capitalize;
-}
 
 .myWorks {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
-@media screen and (max-width: 1129px){
+@media screen and (max-width: 1129px) {
     .myWorks {
         justify-content: center;
     }

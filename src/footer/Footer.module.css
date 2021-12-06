@@ -1,6 +1,6 @@
 .footerBlock {
     height: 35vh;
-
+background-color: #74549f;
     display: flex;
     align-items: center;
 }
