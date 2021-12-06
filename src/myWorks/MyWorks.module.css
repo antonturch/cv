@@ -18,6 +18,14 @@
     background-color: #aedcde;
 }
 
+.title h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+}
+
 .myWorks {
     display: flex;
     justify-content: space-between;
