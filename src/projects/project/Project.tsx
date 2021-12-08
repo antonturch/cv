@@ -1,20 +1,21 @@
 import React from "react";
-import style from "./Project.module.css"
+import styles from "./Project.module.css"
 
 type MyWorkPropsType = {
     projTitle: string
     projDescription: string
+    style: {backgroundImage: string}
 }
-export const Project: React.FC<MyWorkPropsType> = ({projTitle, projDescription}) => {
+export const Project: React.FC<MyWorkPropsType> = ({projTitle, projDescription, style}) => {
     return (
-        <div className={style.proj}>
-            <div className={style.imgContainer}>
+        <div className={styles.proj}>
+            <div className={styles.imgContainer} style={style}>
                 <img src="" alt=""/>
-                <button>Watch</button>
+                <button className={styles.viewBnt}>Watch</button>
             </div>
-            <div className={style.projInfo}>
-                <h3 className={style.projTitle}>{projTitle}</h3>
-                <span className={style.projDescription}>{projDescription}</span>
+            <div className={styles.projInfo}>
+                <h3 className={styles.projTitle}>{projTitle}</h3>
+                <span className={styles.projDescription}>{projDescription}</span>
             </div>
         </div>
     )

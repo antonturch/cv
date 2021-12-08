@@ -2,17 +2,36 @@
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     background-color: #252527;
+    width: 550px;
 }
 
 .imgContainer {
     width: 100%;
     min-height: 250px;
-    background-color: #f1d656;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.viewBnt {
+    position: relative;
+}
+
+.imgContainer::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
 .projTitle {
